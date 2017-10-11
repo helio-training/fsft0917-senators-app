@@ -1,4 +1,4 @@
-const senatorData = [{
+[{
     "caucus": null,
     "congress_numbers": [113, 114, 115],
     "current": true,
@@ -4648,6 +4648,4 @@ const senatorData = [{
     "title": "Sen.",
     "title_long": "Senator",
     "website": "https://www.strange.senate.gov"
-}];
-
-export default senatorData;
+}]
