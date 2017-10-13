@@ -23,9 +23,7 @@
 }
 
 .senator {
-    width: 160px;
-    border: 1px solid #333333;
-    box-shadow: 2px 2px 2px black;
+    width: 280px;
     margin: 8px;
     padding: 8px;
 }
