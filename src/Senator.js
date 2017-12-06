@@ -2,8 +2,7 @@ import React from 'react'
 
 export default class extends React.Component {
 
-
-  render() {
+  render () {
     const senator = this.props.senator
 
     return (
@@ -14,6 +13,5 @@ export default class extends React.Component {
       </div>
     )
   }
-
 
 }

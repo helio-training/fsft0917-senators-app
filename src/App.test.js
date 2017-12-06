@@ -1,8 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from 'react'
+import App from './App'
+import { shallow } from 'enzyme'
+import Senators from './Senators'
 
 it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-});
+  const wrapper = shallow(<App />)
+  expect(wrapper.find(Senators)).toHaveLength(1)
+})
